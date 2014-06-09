@@ -4,8 +4,8 @@
 sudo su
 
 # Just a simple way of checking if we need to install everything
-if [ ! -d "/var/www" ]
-then
+#if [ ! -d "/var/www" ]
+#then
     # Add MongoDB to apt
     apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
     echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list
@@ -46,4 +46,4 @@ then
     echo ""
     echo "Run 'yo keystone' in the VM to start creating your first Keystone app"
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-fi
+#fi
