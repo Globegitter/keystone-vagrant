@@ -17,14 +17,15 @@ If you would prefer to install the Keystone Generator manually, you can instead 
 
 
 ### How do you use this box?
-1. [Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads) (tested with 4.3.6)
-2. [Download and install Vagrant](http://www.vagrantup.com/downloads.html) - 1.1 or newer required (tested with 1.4.3)
+1. [Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads) (tested up to 4.3.8)
+2. [Download and install Vagrant](http://www.vagrantup.com/downloads.html) - 1.1 or newer required (tested up to 1.5.1)
 3. Clone this repository
 4. `cd keystone-vagrant/`
 5. `vagrant up`
 6. Grab a cup of coffee while you wait for the server to download and install. This will take a little while depending on your internet connection.
 7. Once done `vagrant ssh`, `cd /var/www` in that folder run `yo keystone`.
 8. Answer all of the setup questions and then acces your brand new keystone site at `192.168.192.168:3000`. Login with the default user: `user@keystonejs.com`, pw: `admin`.
+9. You are all set and your `www` should sync.
 
 ### Further Reading
 - [Vagrant Documentation](http://docs.vagrantup.com/)
