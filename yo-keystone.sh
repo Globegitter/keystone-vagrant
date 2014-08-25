@@ -26,8 +26,14 @@ then
     # Install latest stable version of MongoDB
     apt-get install -y mongodb-10gen
 
+    # Install fish shell and make it your default shell
+    apt-add-repository -y ppa:fish-shell/release-2
+    apt-get -y update
+    apt-get install -y fish
+    chsh -s /usr/bin/fish
+
     # Symlink our host www to the guest /var/www folder
-    ln -s /vagrant/www /var/www    
+    #ln -s /vagrant/www /var/www    
 
     # Install Heroku toolbelt
     wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
@@ -42,7 +48,7 @@ then
     echo "You can login to this VM with:"
     echo "   vagrant ssh"
     echo ""
-    echo "The IP for this VM is: 192.168.192.168"
+    echo "Once the Server is started you can access it under: http://localhost:3000"
     echo ""
     echo "Run 'yo keystone' in the VM to start creating your first Keystone app"
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
