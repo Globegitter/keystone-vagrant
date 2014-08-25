@@ -1,4 +1,4 @@
-# Ubuntu 12.04 64-bit Vagrant Box for KeystoneJS
+# Vagrant Box for KeystoneJS
 
 ### What is this for?
 
