@@ -6,12 +6,13 @@ This box recipe provides a quick start to trying out the [KeystoneJS](http://key
 
 After successful installation you will have:
 
- * Ubuntu 12.04 64-bit VM listening on 192.168.192.168 
+ * Ubuntu 14.04 64-bit VM listening on 192.168.192.168, or localhost:3000
  * Current version of [Node.js](http://nodejs.org/) (software platform that powers Keystone)
  * Current version of [MongoDB](http://www.mongodb.org/) (NoSQL document-oriented database)
  * All `npm` dependencies for KeystoneJS including [Mongoose](http://mongoosejs.com/) and [Express](http://expressjs.com/).
  * Current version of the [Keystone Yeoman generator](https://www.npmjs.org/package/generator-keystone) (aka 'yo keystone')
  * [Heroku Toolbelt](https://toolbelt.heroku.com/) for deployment
+ * [PM2](https://github.com/Unitech/PM2) if you prefer to deploy the app yourself
 
 If you would prefer to install the Keystone Generator manually, you can instead follow the documentation on the [`generator-keystone`](https://www.npmjs.org/package/generator-keystone) page on npmjs.org.
 

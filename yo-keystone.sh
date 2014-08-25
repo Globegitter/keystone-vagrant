@@ -40,6 +40,7 @@ then
 
     # Install Keystone
     npm install -g generator-keystone
+    npm install pm2@latest -g
 
     # Huzzah!
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
